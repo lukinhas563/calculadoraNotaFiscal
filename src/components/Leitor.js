@@ -216,7 +216,7 @@ export default class Leitor {
                 method: 'get',
                 url: `https://api.cnpja.com/office/${cnpj}?simples=true`,
                 headers: {
-                    Authorization: '13b3dc5f-2835-4769-8687-1016ff1c6d89-410d2687-350f-44ae-bc23-1847ec454af0'
+                    Authorization: `${process.env.REACT_APP_MINHA_CHAVE}`
                 },
                 params: {
                     strategy: 'CACHE',
