@@ -212,11 +212,13 @@ export default class Leitor {
 
         return new Promise((resolve, reject) => {
 
+            const CHAVE = process.env.REACT_APP_MINHA_CHAVE;
+
             const config = {
                 method: 'get',
                 url: `https://api.cnpja.com/office/${cnpj}?simples=true`,
                 headers: {
-                    Authorization: `${process.env.REACT_APP_MINHA_CHAVE}`
+                    Authorization: `${CHAVE}`
                 },
                 params: {
                     strategy: 'CACHE',
