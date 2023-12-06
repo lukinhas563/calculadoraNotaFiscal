@@ -1,0 +1,69 @@
+.container-menu-duvidas {
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+    height: 84vh;
+}
+
+.btn-primeiro {
+    border: solid 0.5px #D6E2EB;
+    width: 100%;
+    height: 3rem;
+    text-align: left;
+    padding-left: 1rem;
+    cursor: pointer;
+    background: none;
+    background-color: white;
+    transition: all 100ms ease-in-out;
+}
+
+.btn-primeiro:hover {
+    background-color: #D6E2EB;
+}
+
+.container-menu-dois li:hover {
+    background-color: #D6E2EB;
+}
+
+.container-menu ul {
+    max-height: 30rem;
+    list-style: none;
+}
+
+.container-menu ul li {
+    border: solid 0.5px #D6E2EB;
+    padding: 0.5rem;
+    cursor: pointer;
+    font-size: 12px;
+}
+
+.container-duvidas {
+    overflow-y: auto;
+}
+
+.removerMenu {
+    display: none;
+}
+
+/* DUVIDAS */
+
+.container-duvidas {
+    padding: 2rem 2rem;
+}
+
+.artigo-ICMS {
+    max-width: 60rem;
+    margin: auto;
+}
+
+.artigo-ICMS p {
+    margin-top: 1rem;
+}
+
+.artigo-ICMS ul {
+    list-style: decimal;
+}
+
+.artigo-ICMS ul,
+.artigo-ICMS ul li {
+    margin-top: 1rem;
+}
